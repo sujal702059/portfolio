@@ -1,0 +1,105 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: hsl(199, 92%, 40%);
+    color: white;
+    padding: 15px;
+    position: fixed;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+.sidebar ul li a:visited {
+    color: #ccc;
+}
+.main{
+    margin-left: 270px; /* Adjusted for sidebar width */
+    padding: 20px;
+}
+.developer {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+.button {
+  
+    padding: 10px 20px;
+    background-color: hwb(11 91% 5%);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.button:hover {
+    background-color: lab(64.83% -13.59 -41.58);
+}
+@media (max-width: 768px) {
+    ;b   .sidebar {
+        width: 100%;
+        position: relative;
+    }
+    .main {
+        margin-left: 0;
+        padding: 10px;
+    }
+    .developer {
+        max-width: 50%;
+    }
+    
+}
+
+/* .ham {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px; */
+   
+/* } */
+
+
+.ham{
+    height: 30px;
+    width: 30px;
+    left: 20px;
+    position: absolute;
+    top: 10px;
+    /* margin-right: 50%; */
+
+
+
+
+
+}
+.cross {
+    height: 25px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-left: 245px;
+    
+}
+
